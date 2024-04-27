@@ -40,7 +40,7 @@ public class Grid implements Iterable<Cell>{
             int x = 10 + 80 * rows;
             int y = 10 + 80 * l;
             if(l <8){
-                cells[rows][l] = new Cell(rows,l,y,x, 1, Color.WHITE, Character.toString ((char) l + 65)); 
+                cells[rows][l] = new Cell(rows,l,y,x, 1, Color.WHITE, Character.toString((char) l + 65)); 
             }else{
                 // no label for the bottom right corner.
                 cells[rows][l] = new Cell(rows,l,y,x, 1, Color.WHITE, " "); 
